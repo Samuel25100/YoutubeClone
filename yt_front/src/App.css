@@ -1,0 +1,122 @@
+/* Upper navigation bar */
+.top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+  .navGr {
+    display: flex;
+    align-items: center;
+  }
+  /* Menu button */
+    .menuBt {
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+      margin: 20px;
+      height: fit-content;
+    }
+    .menuBt span {
+      margin: 3px;
+      background-color: black;
+      width: 20px;
+      height: 2px;
+    }
+
+  /* Youtube home button */
+    .ytHomeBt {
+      display: flex;
+      align-items: center;
+      height: 24px;
+    }
+    .ytHomeBt h2 {
+      font-weight: 700;
+      font-style: normal;
+      margin-left: 2px;
+    }
+    
+    .homeIcon {
+      width: 28px;
+      height: 28px;
+    }
+
+  /*  Search Bar  */
+    .allSearch {
+      width: 43%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+    }
+    .searchBar {
+      display: flex;
+      width: 90%;
+      height: 40px;
+      border: solid 1px;
+      align-items: center;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .searchIco1 {
+      width: 20px;
+      height: 20px;
+      margin-left: 10px;
+      visibility: hidden;
+    }
+    .searchBar input {
+      height: 24px;
+      border: none;
+      width: 100%;
+      outline: none;
+      font-size: large;
+    }
+    .leftSearch {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid;
+      background-color: white;
+      height: 42px;
+      width: 70px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .leftSearch img {
+      height: 24px;
+      width: 24px;
+    }
+    /* Record Icon */
+    .recordIc {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      border: none;
+      margin-left: 15px;
+    }
+    .recordIc img {
+      width: 30px;
+      height: 30px;
+    }
+  
+  /* Left Menus */
+  .leftMenus {
+    display: flex;
+    width: 150px;
+  }
+  .downloadIc, .notificationIc, .profileIc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .downloadIc img, .notificationIc img, .profileIc img {
+    width: 24px;
+    height: 24px;
+  }
+  .profileIc img {
+    border-radius: 12px;
+  }
